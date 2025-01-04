@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#254B56">
+
+    <LinearLayout
+        android:id="@+id/logo1"
+        android:layout_width="374dp"
+        android:layout_height="81dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:id="@+id/grow"
+            android:layout_width="150dp"
+            android:layout_height="81dp"
+            android:layout_gravity="left|bottom"
+            app:srcCompat="@drawable/grow_food_s"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="178dp"
+            android:layout_height="28dp"
+            android:layout_gravity="right|center"
+            app:srcCompat="@drawable/search" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="359dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/logo1"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        app:srcCompat="@drawable/frame_1_home" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView5"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="25dp"
+        android:foregroundGravity="left|bottom"
+        app:srcCompat="@drawable/happy_shopping" />
+
+    <ImageView
+        android:id="@+id/stroberi"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/imageView6"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="17dp"
+        app:srcCompat="@drawable/stroberi" />
+
+    <ImageView
+        android:id="@+id/mangga"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/imageView5"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginRight="45dp"
+        app:srcCompat="@drawable/frame_17" />
+    <ImageView
+        android:id="@+id/pisang"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/stroberi"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/pisang" />
+
+    <ImageView
+        android:id="@+id/jambu"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/mangga"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="45dp"
+        app:srcCompat="@drawable/jambu" />
+
+    <ImageView
+        android:id="@+id/fhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pisang"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="50dp"
+        app:srcCompat="@drawable/fhome" />
+
+    <ImageView
+        android:id="@+id/ffavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pisang"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="126dp"
+        app:srcCompat="@drawable/ffavorite" />
+    <ImageView
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pisang"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="204dp"
+        app:srcCompat="@drawable/cart" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pisang"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="280dp"
+        app:srcCompat="@drawable/fprofile" />
+
+</RelativeLayout>
+
